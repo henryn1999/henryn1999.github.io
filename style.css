@@ -16,7 +16,7 @@ body{
   overflow-x:hidden;
 }
 .corner-ribbon{
-  width: 400px;
+  width: 450px;
   background: #e43;
   position: absolute;
   top: 25px;
@@ -35,8 +35,8 @@ body{
   box-shadow: 0 0 3px rgba(0,0,0,.3);
 }
 .corner-ribbon.top-left{
-  top: 10px;
-  left: -25px;
+  top: 100px;
+  left: -100px;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
