@@ -35,7 +35,7 @@ body{
   box-shadow: 0 0 3px rgba(0,0,0,.3);
 }
 .corner-ribbon.top-left{
-  top: 100px;
+  top: 150px;
   left: -100px;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
