@@ -4,7 +4,7 @@
 }
 img.one {
   height: 100px;
-  width: 543.5px;
+  width: 915px;
 }
 body{
   margin:0;
@@ -111,7 +111,7 @@ button:active {
   }
 }
 .row {
-  width: 800px;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -132,3 +132,6 @@ button:active {
 {
      margin: 0 auto;
 }
+div.container {
+      display:inline-block;
+    }
