@@ -19,28 +19,31 @@ body{
   width: 450px;
   background: #e43;
   position: absolute;
+  z-index: 999;
   top: 25px;
   left: -50px;
   text-align: center;
   line-height: 50px;
   letter-spacing: 1px;
-  color: #f0f0f0;
+  color: #e25f6b;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
 .corner-ribbon.sticky{
   position: fixed;
+  z-index: 999;
 }
 .corner-ribbon.shadow{
   box-shadow: 0 0 3px rgba(0,0,0,.3);
 }
 .corner-ribbon.top-left{
   top: 120px;
+  z-index: 999;
   left: -80px;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
-.corner-ribbon.red{background: #e25f6b;}
+.corner-ribbon.red{background: #ffff;}
 
 .v-header{
   height:100vh;
@@ -161,3 +164,26 @@ button:active {
 div.container {
       display:inline-block;
     }
+.topnav {
+    overflow: hidden;
+    background-color: #e25f6b;
+    position: relative;
+    z-index: 998;
+    opacity: 1.0;
+  }
+
+    /* Style the topnav links */
+.topnav a {
+      float: left;
+      display: block;
+      color: #ffff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+}
+
+    /* Change color on hover */
+.topnav a:hover {
+    background-color: #ffff;
+    color: #e25f6b;
+}
